@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Aamira Fayaz Wedding | Vadivamai.in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aamira Fathima and Fayaz Ahmed's wedding site | Vadivamai.in" />
+    <meta name="keywords" content="Aamira, Fathima, Fayaz, Ahmed, wedding site, invitation site, welcome site, marriage site" />
+    <meta name="author" content="vadivamai.in" />
+    <link rel="shortcut icon" href="images/hearts.ico" />
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet'
+        type='text/css' />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Heart Pulse -->
+    <link href="css/heart.css" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 8]>
+			 <link rel="stylesheet" type="text/css" href="css/simple.css" />
+		<![endif]-->
+    <!-- JS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+    <!-- JQuery UI-->
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <!-- modernizr js -->
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+    <!-- Google Map Api-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script type="text/javascript" src="js/gmap.js"></script>
+    <!-- Galley page img rotate and drag -->
+    <script type="text/javascript" src="js/gallery.js"></script>
+	<style> html {
+    cursor: url('./images/hearts.cur') 64 116, auto;
+    cursor: url('./images/hearts.png') 64 116, auto;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="st-container">
+            <!-- Menu Bar -->
+            <input type="radio" name="radio-set" checked="checked" id="st-control-1" />
+            <a href="#st-panel-1">Invitation</a>
+            <input type="radio" name="radio-set" id="st-control-2" />
+            <a href="#st-panel-2">Wedding</a>
+            <input type="radio" name="radio-set" id="st-control-3" />
+            <a href="#st-panel-3">Reception</a>
+            <input type="radio" name="radio-set" id="st-control-4" />
+            <a href="#st-panel-4">RSVP</a>
+            <input type="radio" name="radio-set" id="st-control-5" />
+            <a href="#st-panel-5">Wishes</a>
+            <!-- /Menu Bar -->
+            <!-- Song BGM -->
+            <div class="song">
+                <audio src="sounds/terahone.ogg" autoplay="autoplay" id="Vaazhkave_Vaazhkave0" type="audio/ogg">
+                    <embed src="sounds/terahone.mp3" autoplay="true" width="40" height="30" name="Vaazhkave_Vaazhkave"
+                        id="Vaazhkave_Vaazhkave1" />
+                </audio>
+            </div>
+            <!-- /Song BGM-->
+			<div class="st-scroll">
+                <!-- Placeholder text from http://hipsteripsum.me/ -->
+                <section class="st-panel" id="st-panel-1">
+                    <div class="st-deco" data-icon="A">
+                    </div>
+                    <h2>Invitation</h2>
+                    <div class="panel-mid message">
+					
+                        <p>In the Name of Allah, the most Beneficent and Merciful. We,</p>
+                        <p class="names">Aamira Fathima<br /></p>
+                        <div id="circle">&hearts;</div>    
+                        <p class="names">Fayaz Ahmed</p>
+                        <p>wish to witness this dream come true of ours with<br />
+                            You and Your Family, since you have shared in our lives by your friendship and love.<br />
+                            
+                            <br />
+                            <br />
+                        </p>
+                    </div>
+                </section>
+                <section class="st-panel st-color" id="st-panel-2">
+                    <div class="st-deco" data-icon="M">
+                    </div>
+                    <h2>Event & Venue</h2>
+                    <div class="panel-mid message">
+                        <p>8th June, 2014<br>
+                            (Sunday) 11:00AM<br />
+                            <b>Aringar Anna Arangam</b><br/>
+							Dr.Gurusamy Road, Chetpet, Chennai-31. </p>
+                        <div id="map-canvas1">
+                        </div>
+                    </div>
+                </section>
+                <section class="st-panel" id="st-panel-3">
+                    <div class="st-deco" data-icon="I">
+                    </div>
+					<h2>Reception</h2>
+                    <div class="panel-mid message">
+                        <p>15th June, 2014<br>
+                           (Sunday) 12:00PM<br />
+                            <b>Sangamam Thirumana Mandabam,</b><br/>
+								Podanur Main Rd, Kurichi Pirivu, Kurichi, Coimbatore -641024
+						</p>
+                        <div id="map-canvas2">
+                        </div>
+                       
+                    </div>
+                    
+                   
+                </section>
+                <section class="st-panel st-color" id="st-panel-4">
+                    <div class="st-deco" data-icon="R">
+                    </div>
+                    <h2>RSVP</h2>
+                    <div class="panel-mid">
+                        <!-- Form -->
+                        <script type="text/javascript" src="js/form-validation.js"></script>
+                        <form id="contactForm" action="#" method="post">
+                        <fieldset class="fieldnoborder">
+                            <div>
+                                <div>
+                                    <label class="message">
+                                        Name&nbsp;&nbsp;&nbsp;</label>
+                                    <input name="name" id="name" type="text" class="textbox" placeholder="Full Name" />
+                                </div>
+                                <input name="email" id="email" type="text" class="textbox" placeholder="Email" />
+                                <label class="message">
+                                    &nbsp;&nbsp;&nbsp;Mail</label>
+                                <div>
+                                </div>
+                                <div>
+                                    <label class="message">
+                                        Are you coming?</label>
+                                    <br />
+                                    <br />
+                                    <input type="radio" name="SrNo" id="yes" value="Naan illamalaa!! I will be there :-)" checked="checked">
+                                    <label for="yes">
+                                        Yes</label>
+                                    <input type="radio" name="SrNo" id="mayb" value="I will try to come. But not sure">
+                                    <label for="mayb">
+                                        May Be</label>
+                                    <input type="radio" name="SrNo" id="no" value="Sorry, I'm not coming">
+                                    <label for="no">
+                                        No</label>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <textarea name="comments" id="comments" rows="5" cols="40" class="textbox" placeholder="வாழ்த்து | Your Wishes "></textarea>
+                                </div>
+                                <!-- send mail configuration -->
+                                <input type="hidden" value="Wishes From AamiraFayaz Wedding Site | Vadivamai.in" name="subject"
+                                    id="subject" />
+                                <input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
+                                <!-- ENDS send mail configuration -->
+                            </div>
+                            <div class="btnContainer">
+                                <span id="error" class="message">Sorry Unable Wish them :-( Try again later</span>
+                                <p>
+                                    <input type="button" value="Send" name="submit" id="submit" class="btnSubmit" />
+                                </p>
+                            </div>
+                        </fieldset>
+                        </form>
+                        <p id="sent-form-msg" class="message">Thanks for the wishes.</p>
+                    </div>
+                    <!-- /Form -->
+                </section>
+                <section class="st-panel" id="st-panel-5">
+                    <div class="st-deco" data-icon="A">
+                    </div>
+                    <h2>Wishes</h2>
+                    <div class="panel-mid message">
+                        <!-- begin htmlcommentbox.com -->
+                        <script type="text/javascript" src="js/htmlcommentbox.js"></script>
+                        <div id="HCB_comment_box">
+                            Wishes are loading...</div>
+                        <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+                        <script type="text/javascript" id="hcb">                            /*<!--*/if (!window.hcb_user) { hcb_user = {}; } (function () { var s = document.createElement("script"), l = (hcb_user.PAGE || "" + window.location), h = "//www.htmlcommentbox.com"; s.setAttribute("type", "text/javascript"); s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&mod=%241%24wq1rdBcg%242uLe0QjCa4zX50v0uzBdZ." + "&opts=17311&num=3"); if (typeof s != "undefined") document.getElementsByTagName("head")[0].appendChild(s); })(); /*-->*/ </script>
+                        <!-- end htmlcommentbox.com -->
+                    </div>
+                    <p>Designed By <a href="http://vadivamai.in">vadivamai.in</a></p>
+                </section>
+            </div>
+            <!-- // st-scroll -->
+        </div>
+        <!-- // st-container -->
+    </div>
+</body>
+</html>
